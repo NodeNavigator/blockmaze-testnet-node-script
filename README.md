@@ -17,6 +17,16 @@ Setup the node:
 open a terminal window and run the following command:
 
 ```bash
+./install-go.sh
+```
+
+after that
+```bash
+source ~/.ptofile
+source ~/.bashrc
+```
+
+```bash
 ./blockmaze_ubuntu_node.sh
 ```
 

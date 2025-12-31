@@ -8,6 +8,7 @@
 current_path=$(pwd)
 bash  $current_path/install-go.sh 
 
+source $HOME/.profile
 source $HOME/.bashrc
 ulimit -n 16384
 
