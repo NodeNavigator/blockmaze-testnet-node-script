@@ -1,6 +1,6 @@
 # blockmaze-testnet-script
 
-This repository provides ubuntu 22.04 and 24.04 script for running a node on blockmaze devnet:
+This repository provides ubuntu 22.04 and 24.04 script for running a node on blockmaze testnet:
 
 System Requirements:
 
@@ -11,7 +11,7 @@ System Requirements:
 - CPU: 4core
 
 Clone this repo using:
-git clone '<https://github.com/blockmaze/blockmaze-testnet-node-script.git>'
+git clone '<https://github.com/NodeNavigator/blockmaze-testnet-node-script.git>'
 
 Setup the node:
 open a terminal window and run the following command:
@@ -27,7 +27,7 @@ source ~/.bashrc
 ```
 
 ```bash
-./blockmaze_ubuntu_node.sh
+./node_state_sync.sh
 ```
 
 once it finishes, start the node service with the following command:
